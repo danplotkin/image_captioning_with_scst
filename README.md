@@ -1,1 +1,1 @@
-# image_captioning_with_scst
+# Advanced Image Captioning Transformer with Reinforcement Learning Optimization in PyTorch
