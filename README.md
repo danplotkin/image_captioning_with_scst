@@ -30,7 +30,7 @@ Instead of using CIDER as our reward metric, we use the METEOR score, introduced
 * We use a linear warmup learning rate method that warms up to the rate of 1e-4, which then decays using cosign decaying.
 * Our early stopping procedure has a patience of 1, and reverts to the best weights based on the validation loss.
 
-#### Pretrained Components:
+#### Pretrained Components
 * Tokenizer: `distilbert-base-uncased`
 * ViT: `google/vit-base-patch16-384`
 
