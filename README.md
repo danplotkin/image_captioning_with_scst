@@ -14,5 +14,29 @@ We optimize this baseline model with Self-critical Sequence Training (SCST), pro
 
 Instead of using CIDER as our reward metric, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with HighLevels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)". 
 
+## Baseline Training
+
+### Configurations
+
+#### Hyperparameters
+* Batch Size: 40
+* Embedding Dimentions: 768
+* Number of Decoder Layers: 4
+* Number of Attention Heads: 12
+* Dense Neurons: 1536
+
+#### Pretrained Components:
+* Tokenizer: distilbert-base-uncased
+* ViT: google/vit-base-patch16-384
+
+#### Hardware
+* GPU: L4 Colab GPU
+
+#### Loss Function and Metric
+* Loss Function: Zero-masked Categorical Cross Entropy Loss (XE)
+* Metric: Zero-mased Accuracy
+
+### Results
+
 
 
