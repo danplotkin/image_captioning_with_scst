@@ -24,10 +24,15 @@ Instead of using CIDER as our reward metric, we use the METEOR score, introduced
 * Number of Decoder Layers: 4
 * Number of Attention Heads: 12
 * Dense Neurons: 1536
+* Max Epochs: 15
+
+#### Learning Rate and Early Stopping
+* We use a linear warmup learning rate method that warms up to the rate of 1e-4, which then decays using cosign decaying.
+* Our early stopping procedure has a patience of 1, and reverts to the best weights based on the validation loss.
 
 #### Pretrained Components:
-* Tokenizer: distilbert-base-uncased
-* ViT: google/vit-base-patch16-384
+* Tokenizer: `distilbert-base-uncased`
+* ViT: `google/vit-base-patch16-384`
 
 #### Hardware
 * GPU: L4 Colab GPU
@@ -38,5 +43,13 @@ Instead of using CIDER as our reward metric, we use the METEOR score, introduced
 
 ### Results
 
+#### Early Stopping
+Our training ended at epoch 10, and we reverted back to weights used at the end of epoch 9.
 
+#### Validation Loss by Epoch
 
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_LOSS.png'>
+
+#### Validation Accuracy by Epoch
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_ACC.png'>
