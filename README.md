@@ -12,7 +12,7 @@ We optimize this baseline model with Self-critical Sequence Training (SCST), pro
    
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST.png'>
 
-Instead of using CIDER as our reward metric, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with HighLevels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)". 
+Instead of using CIDER as our reward function, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with HighLevels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)". 
 
 ## Baseline Training
 
