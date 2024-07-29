@@ -67,7 +67,8 @@ Our training ended at epoch 10, and we reverted back to weights used at the end 
 * Decay LR by 0.5 after first epoch.
 
 #### Loss Function and Rewards
-* We use METEOR score as our non-differentiable reward function.
+* We use METEOR score as our non-differentiable reward function. We aim to maximize reward by minimizing the loss function with the following gradient computation:
+  
 $$\nabla_{\theta} L(\theta) = - \mathbb{E}{w^s \sim p{\theta}} \left[ (r(w^s) - b) \nabla_{\theta} \log p_{\theta}(w^s) \right]$$
 
 #### Hardware
