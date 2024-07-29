@@ -10,5 +10,9 @@ This repository contains a Jupyter Notebook that implements a two-step training 
 
 2. We optimize this baseline model with Self-critical Sequence Training (SCST), proposed in "[Self-critical Sequence Training for Image Captioning](https://arxiv.org/abs/1612.00563)" by Rennie et al. (2016) which is an improved varient of the popular REINFORCE algorithm. Below is a depiction of this process from the original paper:
 
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST.png'>
+
+Instead of using CIDER as our reward metric, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with HighLevels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)". 
+
 
 
