@@ -69,7 +69,7 @@ Our training ended at epoch 10, and we reverted back to weights used at the end 
 #### Loss Function and Rewards
 * We use METEOR score as our non-differentiable reward function. We aim to maximize reward by minimizing the loss function with the following gradient computation:
   
-$$\nabla_{\theta} L(\theta) = - \mathbb{E}{w^s \sim p{\theta}} \left[ (r(w^s) - b) \nabla_{\theta} \log p_{\theta}(w^s) \right]$$
+$$\nabla_{\theta} L(\theta) = - \mathbb{E} _ {w^s \sim p{\theta}} \left[ (r(w^s) - b) \nabla_{\theta} \log p_{\theta}(w^s) \right]$$
 
 #### Hardware
 * GPU: Colab L4 GPU
