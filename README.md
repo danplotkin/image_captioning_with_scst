@@ -46,11 +46,11 @@ Instead of using CIDER as our reward function, we use the METEOR score, introduc
 #### Early Stopping
 Our training ended at epoch 10, and we reverted back to weights used at the end of epoch 9.
 
-#### Validation Loss by Epoch
+#### Train and Validation Loss by Epoch
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_LOSS.png'>
 
-#### Validation Accuracy by Epoch
+#### Train Validation Accuracy by Epoch
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_ACCURACY.png'>
 
