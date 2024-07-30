@@ -52,7 +52,7 @@ Our training ended at epoch 10, and we reverted back to weights used at the end 
 
 #### Validation Accuracy by Epoch
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_ACC.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/CPTR_ACCURACY.png'>
 
 ## Self-critical Sequence Training (SCST)
 
