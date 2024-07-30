@@ -107,4 +107,6 @@ where:
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>  
 
+## Generated Captions
+
 
