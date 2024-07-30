@@ -13,7 +13,10 @@ We optimize this baseline model with Self-critical Sequence Training (SCST), pro
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST.png'>  
   
 Instead of using CIDER as our reward function, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)".  
-  
+
+## Dataset
+We use the Flickr8K dataset.
+
 ## Baseline Training  
   
 ### Configurations  
@@ -92,4 +95,12 @@ where:
   
 #### Hardware  
   
-- **GPU:** Colab L4 GPU  
+- **GPU:** Colab L4 GPU
+
+### Results
+
+#### Test METEOR Before and After SCST
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>  
+
+
