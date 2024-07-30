@@ -15,7 +15,11 @@ We optimize this baseline model with Self-critical Sequence Training (SCST), pro
 Instead of using CIDER as our reward function, we use the METEOR score, introduced in "[Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments](https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf)".  
 
 ## Dataset
-We use the Flickr8K dataset.
+We use the [Flickr8K dataset](https://www.kaggle.com/datasets/adityajn105/flickr8k). Our random train-val-test splits are shown below:
+
+* Number of training examples: 23890
+* Number of validation examples: 5975
+* Number of test examples: 7470
 
 ## Baseline Training  
   
