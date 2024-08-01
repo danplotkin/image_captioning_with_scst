@@ -109,4 +109,15 @@ where:
 
 ## Generated Captions
 
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png'>
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png'>
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_3.png'>
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_4.png'>
+
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png'>
+
+
 
