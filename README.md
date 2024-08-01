@@ -107,7 +107,7 @@ where:
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>  
 
-## Generated Captions
+## Generated Captions on Unseen Images
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
 
