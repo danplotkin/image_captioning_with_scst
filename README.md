@@ -111,13 +111,31 @@ where:
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png' width='500'>
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_3.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_3.png' width='500'>
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_4.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_4.png' width='500'>
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png' width='500'>
 
+It can be that the captions are not perfect, but for the most part are able to understand the most of the captions to a good degree.
 
+### Further Improvents
+
+We can further improve the performance of the model by:
+
+* Using a larger dataset like Flickr32k or MSCOCO to train our model.
+* Make our model more complex with more decoder layers.
+* Run our SCST for more epochs.
+
+### Citations
+
+1. Liu, Y., Shen, C., & van den Hengel, A. (2021). CPTR: Full Transformer Network for Image Captioning. Retrieved from https://arxiv.org/pdf/2101.10804
+
+2. Rennie, S. J., Marcheret, E., Mroueh, Y., Ross, J., & Goel, V. (2016). Self-critical Sequence Training for Image Captioning. Retrieved from https://arxiv.org/abs/1612.00563
+
+3. Banerjee, S., & Lavie, A. (2005). Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments. Retrieved from https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf
+
+4. Flickr8K dataset. Retrieved from https://www.kaggle.com/datasets/adityajn105/flickr8k
 
