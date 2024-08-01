@@ -1,5 +1,5 @@
 # Advanced Image Captioning Transformer with Reinforcement Learning Optimization in PyTorch  
-  
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/danplotkin/image_captioning_with_scst/blob/main/ImageCaptioner.ipynb)
 ## About  
   
 This repository contains a Colab Notebook that implements a two-step training process to train an image captioner.  
