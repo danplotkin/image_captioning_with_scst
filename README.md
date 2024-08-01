@@ -109,7 +109,7 @@ where:
 
 ## Generated Captions
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png'>
+<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='200'>
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png'>
 
