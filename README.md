@@ -196,11 +196,11 @@ We can further improve the performance of the model by:
 }
 
 @article{article,
-author = {Lavie, Alon and Agarwal, Abhaya},
-year = {2007},
-month = {07},
-pages = {228-231},
-title = {METEOR: An automatic metric for MT evaluation with high levels of correlation with human judgments}
+  author       = {Lavie, Alon and Agarwal, Abhaya},
+  year         = {2007},
+  month        = {07},
+  pages        = {228-231},
+  title        = {METEOR: An automatic metric for MT evaluation with high levels of correlation with human judgments}
 }
 ```
 
