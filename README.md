@@ -109,7 +109,12 @@ where:
 
 ## Generated Captions on Unseen Images
 
-We use **beam search** to decode our captions for generation, with a beam size of 3.
+We use **beam search** to decode our captions for generation, with a beam size of 3. A simple normalized function is used as the score function for beam search. It is defined as:
+
+
+$$
+\text{score}(y) = \log P(y \mid x) = \frac{1}{T} \sum_{i=1}^{T} \log P(y_i \mid y_1, \ldots, y_{i-1}, x)
+$$
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
 
