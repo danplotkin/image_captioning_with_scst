@@ -137,7 +137,8 @@ We can further improve the performance of the model by:
 
 ### Citations
 
-1. Liu, Y., Shen, C., & van den Hengel, A. (2021). CPTR: Full Transformer Network for Image Captioning. Retrieved from https://arxiv.org/pdf/2101.10804
-2. Rennie, S. J., Marcheret, E., Mroueh, Y., Ross, J., & Goel, V. (2016). Self-critical Sequence Training for Image Captioning. Retrieved from https://arxiv.org/abs/1612.00563
-3. Banerjee, S., & Lavie, A. (2005). Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments. Retrieved from https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf
-4. Flickr8K dataset. Retrieved from https://www.kaggle.com/datasets/adityajn105/flickr8k
+1. Liu, Y., Shen, C., & van den Hengel, A. (2021). CPTR: Full Transformer Network for Image Captioning. Retrieved from https://arxiv.org/pdf/2101.10804.
+2. Rennie, S. J., Marcheret, E., Mroueh, Y., Ross, J., & Goel, V. (2016). Self-critical Sequence Training for Image Captioning. Retrieved from https://arxiv.org/abs/1612.00563.
+3. Banerjee, S., & Lavie, A. (2005). Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments. Retrieved from https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf.
+4. Flickr8K dataset. Retrieved from https://www.kaggle.com/datasets/adityajn105/flickr8k.
+5. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. Retrieved from https://arxiv.org/abs/1706.03762.
