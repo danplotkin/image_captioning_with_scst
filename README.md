@@ -121,7 +121,7 @@ We use **beam search** to decode our captions for generation, with a beam size o
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png' width='500'>
 
-It can be that the captions are not perfect, but for the most part are able to understand the most of the captions to a good degree.
+It can be seen that the captions are not perfect, but for the most part are able to understand the most of the captions to a good degree.
 
 ### Further Improvents
 
