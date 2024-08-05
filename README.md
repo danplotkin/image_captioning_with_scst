@@ -109,6 +109,8 @@ where:
 
 ## Generated Captions on Unseen Images
 
+We use **beam search** to decode our captions for generation, with a beam size of 3.
+
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png' width='500'>
