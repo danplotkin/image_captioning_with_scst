@@ -137,8 +137,73 @@ We can further improve the performance of the model by:
 
 ### Citations
 
-1. Liu, Y., Shen, C., & van den Hengel, A. (2021). CPTR: Full Transformer Network for Image Captioning. Retrieved from https://arxiv.org/pdf/2101.10804.
-2. Rennie, S. J., Marcheret, E., Mroueh, Y., Ross, J., & Goel, V. (2016). Self-critical Sequence Training for Image Captioning. Retrieved from https://arxiv.org/abs/1612.00563.
-3. Banerjee, S., & Lavie, A. (2005). Meteor: An Automatic Metric for MT Evaluation with High Levels of Correlation with Human Judgments. Retrieved from https://www.cs.cmu.edu/~alavie/METEOR/pdf/Banerjee-Lavie-2005-METEOR.pdf.
-4. Flickr8K dataset. Retrieved from https://www.kaggle.com/datasets/adityajn105/flickr8k.
-5. Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention Is All You Need. Retrieved from https://arxiv.org/abs/1706.03762.
+```
+@article{DBLP:journals/corr/RennieMMRG16,
+  author       = {Steven J. Rennie and
+                  Etienne Marcheret and
+                  Youssef Mroueh and
+                  Jerret Ross and
+                  Vaibhava Goel},
+  title        = {Self-critical Sequence Training for Image Captioning},
+  journal      = {CoRR},
+  volume       = {abs/1612.00563},
+  year         = {2016},
+  url          = {http://arxiv.org/abs/1612.00563},
+  eprinttype    = {arXiv},
+  eprint       = {1612.00563},
+  timestamp    = {Tue, 23 Jul 2019 16:55:13 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/RennieMMRG16.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+```
+@article{DBLP:journals/corr/abs-2101-10804,
+  author       = {Wei Liu and
+                  Sihan Chen and
+                  Longteng Guo and
+                  Xinxin Zhu and
+                  Jing Liu},
+  title        = {{CPTR:} Full Transformer Network for Image Captioning},
+  journal      = {CoRR},
+  volume       = {abs/2101.10804},
+  year         = {2021},
+  url          = {https://arxiv.org/abs/2101.10804},
+  eprinttype    = {arXiv},
+  eprint       = {2101.10804},
+  timestamp    = {Wed, 12 Oct 2022 13:48:47 +0200},
+  biburl       = {https://dblp.org/rec/journals/corr/abs-2101-10804.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+```
+@article{DBLP:journals/corr/VaswaniSPUJGKP17,
+  author       = {Ashish Vaswani and
+                  Noam Shazeer and
+                  Niki Parmar and
+                  Jakob Uszkoreit and
+                  Llion Jones and
+                  Aidan N. Gomez and
+                  Lukasz Kaiser and
+                  Illia Polosukhin},
+  title        = {Attention Is All You Need},
+  journal      = {CoRR},
+  volume       = {abs/1706.03762},
+  year         = {2017},
+  url          = {http://arxiv.org/abs/1706.03762},
+  eprinttype    = {arXiv},
+  eprint       = {1706.03762},
+  timestamp    = {Sat, 23 Jan 2021 01:20:40 +0100},
+  biburl       = {https://dblp.org/rec/journals/corr/VaswaniSPUJGKP17.bib},
+  bibsource    = {dblp computer science bibliography, https://dblp.org}
+}
+```
+```
+@article{article,
+author = {Lavie, Alon and Agarwal, Abhaya},
+year = {2007},
+month = {07},
+pages = {228-231},
+title = {METEOR: An automatic metric for MT evaluation with high levels of correlation with human judgments}
+}
+```
+
