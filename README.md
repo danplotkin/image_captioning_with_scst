@@ -155,8 +155,7 @@ We can further improve the performance of the model by:
   biburl       = {https://dblp.org/rec/journals/corr/RennieMMRG16.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-```
-```
+
 @article{DBLP:journals/corr/abs-2101-10804,
   author       = {Wei Liu and
                   Sihan Chen and
@@ -174,8 +173,7 @@ We can further improve the performance of the model by:
   biburl       = {https://dblp.org/rec/journals/corr/abs-2101-10804.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-```
-```
+
 @article{DBLP:journals/corr/VaswaniSPUJGKP17,
   author       = {Ashish Vaswani and
                   Noam Shazeer and
@@ -196,8 +194,7 @@ We can further improve the performance of the model by:
   biburl       = {https://dblp.org/rec/journals/corr/VaswaniSPUJGKP17.bib},
   bibsource    = {dblp computer science bibliography, https://dblp.org}
 }
-```
-```
+
 @article{article,
 author = {Lavie, Alon and Agarwal, Abhaya},
 year = {2007},
