@@ -116,7 +116,9 @@ $$
 \text{score}(y) = \log P(y \mid x) = \frac{1}{T} \sum_{i=1}^{T} \log P(y_i \mid y_1, \ldots, y_{i-1}, x)
 $$
 
-Where at each step, we selected the 3 largest values of $\text{score}{y}$.
+Where at each step, we selected the 3 largest values of $\text{score}(y)$.
+
+Below are 5 randomly sampled captions from our test dataset:
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
 
