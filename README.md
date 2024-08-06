@@ -103,9 +103,15 @@ where:
 
 ### Results
 
-#### Test METEOR Before and After SCST
+#### Batched-test Single-reference METEOR Before and After SCST
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>
+
+## Final Scores
+
+| METEOR | BLEU 1 | BLEU 2 | BLEU 3 | BLEU 4 |
+|--------|--------|--------|--------|--------|
+| 0.4673 | 0.6202 | 0.4449 | 0.3019 | 0.2004 |
 
 ## Generated Captions on Unseen Images
 
