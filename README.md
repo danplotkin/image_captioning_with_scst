@@ -109,19 +109,19 @@ where:
 
 ## Final Scores
 
-| METEOR | BLEU 1 | BLEU 2 | BLEU 3 | BLEU 4 |
-|--------|--------|--------|--------|--------|
-| 0.4673 | 0.6202 | 0.4449 | 0.3019 | 0.2004 |
-
-## Generated Captions on Unseen Images
-
-We use **beam search** to decode our captions for generation, with a beam size of 3. A simple normalized function is used as the score function for beam search. It is defined as:
+We use **beam search** to decode our captions for final evaluation and generation, with a beam size of 3. A simple normalized function is used as the score function for beam search. It is defined as:
 
 $$
 \text{score}(y) = \log P(y \mid x) = \frac{1}{T} \sum_{i=1}^{T} \log P(y_i \mid y_1, \ldots, y_{i-1}, x)
 $$
 
 Where at each step, we selected the 3 largest values of $\text{score}(y)$.
+
+| METEOR | BLEU 1 | BLEU 2 | BLEU 3 | BLEU 4 |
+|--------|--------|--------|--------|--------|
+| 0.4673 | 0.6202 | 0.4449 | 0.3019 | 0.2004 |
+
+## Generated Captions on Unseen Images
 
 Below are 5 randomly sampled captions from our test dataset:
 
