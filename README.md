@@ -121,17 +121,6 @@ Where at each step, we selected the 3 largest values of $\text{score}(y)$.
 |--------|--------|--------|--------|--------|
 | 0.4618 | 0.5419 | 0.3892 | 0.2627 | 0.1698 |
 
-## Generated Captions on Unseen Images
-
-Below are 5 randomly sampled captions from our test dataset:
-
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_3.png' width='500'>
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_4.png' width='500'>
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png' width='500'>
-
-It can be seen that the captions are not perfect, but for the most part are able to understand the most of the captions to a good degree.
-
 ### Further Improvements
 
 We can further improve the performance of the model by:
