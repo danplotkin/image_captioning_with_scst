@@ -119,7 +119,7 @@ Where at each step, we selected the 3 largest values of $\text{score}(y)$.
 
 | METEOR | BLEU 1 | BLEU 2 | BLEU 3 | BLEU 4 |
 |--------|--------|--------|--------|--------|
-| 0.4673 | 0.6202 | 0.4449 | 0.3019 | 0.2004 |
+| 0.4618 | 0.5419 | 0.3892 | 0.2627 | 0.1698 |
 
 ## Generated Captions on Unseen Images
 
