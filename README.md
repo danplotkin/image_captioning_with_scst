@@ -126,7 +126,6 @@ Where at each step, we selected the 3 largest values of $\text{score}(y)$.
 Below are 5 randomly sampled captions from our test dataset:
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_1.png' width='500'>
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_2.png' width='500'>
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_3.png' width='500'>
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_4.png' width='500'>
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/captions/scst_cap_5.png' width='500'>
