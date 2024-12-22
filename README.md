@@ -103,7 +103,7 @@ where:
 
 ### Results
 
-#### Batched-test Single-reference METEOR Before and After SCST
+#### Batched-test METEOR Before and After SCST with Greedy Decoding
 
 <img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>
 
