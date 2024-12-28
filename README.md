@@ -76,12 +76,12 @@ Our training ended at epoch 10, and we reverted back to weights used at the end 
 
 #### Hyperparameters
 
-- **Epochs:** 4
+- **Epochs:** 8
 - **Batch Size:** 12
 
 #### Learning Rate Schedule
 
-- **Initial Learning Rate:** 1e-5. We then decay the learning rate by 0.5 for the last two epochs.
+- **Initial Learning Rate:** 1e-5. We then decay the learning rate by 0.5 for the remaining epochs.
 
 #### Loss Function and Rewards
 
@@ -105,7 +105,9 @@ where:
 
 #### Batched-test METEOR Before and After SCST with Greedy Decoding
 
-<img src='https://github.com/danplotkin/image_captioning_with_scst/blob/main/images/SCST_TEST_RESULT.png'>
+| Metric        | Before SCST | After SCST |
+|---------------|-------------|------------|
+| **METEOR**    | 0.276       | 0.301  |
 
 ## Final Scores
 
