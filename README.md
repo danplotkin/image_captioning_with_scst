@@ -103,7 +103,7 @@ where:
 
 ### Results
 
-#### Batched-test METEOR Before and After SCST with Greedy Decoding
+#### Batched-test single-reference METEOR Before and After SCST with Greedy Decoding
 
 | Metric        | Before SCST | After SCST |
 |---------------|-------------|------------|
